@@ -1,0 +1,8 @@
+amtemu官网下载破解工具amtemu 0.9.2
+https://official-amtemu.com/
+下载好解压后，注册表中
+把原先的IsAMT开头的信息删掉
+然后：
+[HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Adobe\Adobe Acrobat\DC\Activation]
+"IsAMTEnforced"=dword:00000001
+注册表新增这个键值dword32类型，数值1。然后重新用AMTEmu0.9.2激活就行了
